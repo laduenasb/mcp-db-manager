@@ -20,11 +20,13 @@
         "start": "node dist/src/index.js",
         "dev": "tsc && node dist/src/index.js",
         "example": "node examples/example.js",
-        "clean": "rimraf dist"
+        "clean": "rimraf dist",
+        "test:sqlserver": "node tests/sqlserver-driver-test.js"
     },
     "dependencies": {
         "@modelcontextprotocol/sdk": "1.9.0",
-        "mssql": "11.0.1",
+        "msnodesqlv8": "^4.5.0",
+        "mssql": "^11.0.1",
         "pg": "^8.11.3",
         "sqlite3": "5.1.7"
     },
