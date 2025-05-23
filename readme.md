@@ -6,8 +6,8 @@ This MCP (Model Context Protocol) server provides database access capabilities t
 
 1. Clone the repository:
 ```
-git clone https://github.com/executeautomation/database-server.git
-cd database-server
+git clone https://github.com/laduenasb/mcp-db-manager.git
+cd mcp-db-manager
 ```
 
 2. Install dependencies:
